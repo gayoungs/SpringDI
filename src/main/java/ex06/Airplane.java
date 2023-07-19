@@ -8,6 +8,10 @@ public class Airplane {
 	//batter2 주입해주세요
 	@Autowired
 	@Qualifier("battery2")
+	
+	//쌤코드
+	//@Autowired
+	//@Qualifier("bat2")
 	private IBattery battery;
 	
 	public Airplane() {

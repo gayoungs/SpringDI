@@ -10,11 +10,9 @@ public class MainClass {
 				new GenericXmlApplicationContext ("autowired-context.xml");
 		
 		Airplane airplane = ctx.getBean(Airplane.class);
-	
 		airplane.getBattery().energy();
 		
 		Car car = ctx.getBean(Car.class);
-		
 		car.getBattery().energy();
 		
 	}

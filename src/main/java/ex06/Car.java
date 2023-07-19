@@ -8,12 +8,18 @@ public class Car {
 	//batter1 주입해주세요
 	@Autowired
 	@Qualifier("battery1")
+	
+	//쌤코드
+	//@Autowired
+	//@Qualifier("bat1")
+	
 	private IBattery battery;
 	
+	//기본생성자
 	public Car() {
 		
 	}
-
+	
 	public Car(IBattery battery) {
 		this.battery = battery;
 	}
